@@ -6,8 +6,8 @@ jobs:
     steps:
      - name: List Files
        run: |
-       pwd
-       ls
+        pwd
+        ls
      - name: Checkout
        uses: actions/checkout@v1
      - name: Simple JS Action
