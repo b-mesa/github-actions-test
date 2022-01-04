@@ -20,9 +20,9 @@ jobs:
 
   run-windows-commands:
     runs-on: windows-latest
-      steps:
+    steps:
       - name: Directory Powershell
         run: Get-Location
       - name: Directory Bash
         run: pwd
-          shell: bash
+        shell: bash
